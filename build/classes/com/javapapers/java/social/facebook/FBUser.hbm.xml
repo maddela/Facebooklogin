@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.javapapers.java.social.facebook.FBUser" table="FBUser">
+<id column="id" name="id" type="long" />
+<property column="firstname" name="firstname" type="string" />
+<property column="email" name="email" type="string" />
+<property column="gender" name="gender" type="string" />
+
+</class>
+</hibernate-mapping>
